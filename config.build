@@ -1,0 +1,13 @@
+
+# Pimbra patches - BEGIN
+
+## Pimbra org
+%GIT_OVERRIDES          = maldua-pimbra.url-prefix=https://github.com/maldua-pimbra
+
+## zm-web-client
+### CVE-2025-27915 fix
+%GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-web-client.tag=9.0.0.p44-maldua
+
+# Pimbra patches - END
+
