@@ -71,3 +71,9 @@ cat config.build_pimbra >> config.build
 # Other of your changes (Optional)
 # Your ./build.pl command
 ```
+
+## Known integrations
+
+### Maldua's zimbra-foss-builder
+
+- [zimbra-foss-builder integration](https://github.com/maldua/zimbra-foss-builder/commit/107fda1292688518ee08223fc32feb88c32b5cdd#diff-89b9efc4573d58546e2227292d5e3f1ebb87014c57a585e4e6c33b807df2d62b)
