@@ -4,12 +4,5 @@
 ## Pimbra org
 %GIT_OVERRIDES          = maldua-pimbra.url-prefix=https://github.com/maldua-pimbra
 
-## zm-nginx-conf
-### Revert Zulip chat integration into Nginx.
-### This was originally aimed at Modern UI.
-### And causes nginx not to start properly.
-%GIT_OVERRIDES          = zm-nginx-conf.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-nginx-conf.tag=10.1.7-maldua
-
 # Pimbra patches - END
 
