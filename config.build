@@ -7,7 +7,7 @@
 ## zm-web-client
 ### CVE-2025-27915 fix (Again in 10.0.15)
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-web-client.tag=10.0.13.p1-maldua
+%GIT_OVERRIDES          = zm-web-client.tag=10.0.13.p2-maldua
 
 # Pimbra patches - END
 
