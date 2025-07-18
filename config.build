@@ -4,5 +4,10 @@
 ## Pimbra org
 %GIT_OVERRIDES          = maldua-pimbra.url-prefix=https://github.com/maldua-pimbra
 
+## zm-mailbox
+### ResetPassword: CVE-2025-54390 fix.
+%GIT_OVERRIDES          = zm-mailbox.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-mailbox.tag=10.1.10.p1-maldua
+
 # Pimbra patches - END
 
