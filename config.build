@@ -4,5 +4,10 @@
 ## Pimbra org
 %GIT_OVERRIDES          = maldua-pimbra.url-prefix=https://github.com/maldua-pimbra
 
+## zm-mailbox
+### Addressed a denial of service (DoS) vulnerability that could lead to service disruptions. A new local config attribute, ajax_uri_max_assets_requests_allowed has been added.
+%GIT_OVERRIDES          = zm-mailbox.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-mailbox.tag=10.0.14.p1-maldua
+
 # Pimbra patches - END
 
