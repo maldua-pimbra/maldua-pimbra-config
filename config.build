@@ -19,5 +19,10 @@
 ### ZBUG-4023:Upgraded jetty to 9.4.57.v20241219
 ### This is applied directly in zm-build itself so not need to override its git repo
 
+## zm-admin-console
+### ZBUG-4023:Upgraded jetty to 9.4.57.v20241219
+%GIT_OVERRIDES          = zm-admin-console.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-admin-console.tag=10.1.10.p3-maldua
+
 # Pimbra patches - END
 
