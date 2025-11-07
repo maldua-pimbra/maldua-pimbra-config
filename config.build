@@ -15,5 +15,9 @@
 %GIT_OVERRIDES          = zm-nginx-conf.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-nginx-conf.tag=10.1.10.p2-maldua
 
+## zm-build
+### ZBUG-4023:Upgraded jetty to 9.4.57.v20241219
+### This is applied directly in zm-build itself so not need to override its git repo
+
 # Pimbra patches - END
 
