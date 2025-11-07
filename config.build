@@ -24,5 +24,10 @@
 %GIT_OVERRIDES          = zm-admin-console.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-admin-console.tag=10.1.10.p3-maldua
 
+## zm-jetty-conf
+### ZBUG-4023:Upgraded jetty to 9.4.57.v20241219
+%GIT_OVERRIDES          = zm-jetty-conf.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-jetty-conf.tag=10.1.10.p3-maldua
+
 # Pimbra patches - END
 
