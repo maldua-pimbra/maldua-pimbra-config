@@ -10,10 +10,5 @@
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-web-client.tag=10.1.10.p2-maldua
 
-## zm-nginx-conf
-### Fix Chat Proxy vulnerability from 10.1.12.
-%GIT_OVERRIDES          = zm-nginx-conf.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-nginx-conf.tag=10.1.10.p2-maldua
-
 # Pimbra patches - END
 
