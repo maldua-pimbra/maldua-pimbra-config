@@ -30,10 +30,5 @@
 %GIT_OVERRIDES          = zm-mailbox.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-mailbox.tag=10.0.16.p3-maldua
 
-## zm-zcs-lib
-### ZBUG-4023:Upgraded jetty to 9.4.57.v20241219
-%GIT_OVERRIDES          = zm-zcs-lib.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-zcs-lib.tag=10.0.16.p3-maldua
-
 # Pimbra patches - END
 
