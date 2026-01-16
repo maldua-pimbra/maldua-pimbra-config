@@ -4,11 +4,5 @@
 ## Pimbra org
 %GIT_OVERRIDES          = maldua-pimbra.url-prefix=https://github.com/maldua-pimbra
 
-## zm-web-client
-### Select Advanced Classic by default in login page.
-### This avoids having submission errors when a logged-in user refreshes the page.
-%GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-web-client.tag=10.0.16.p2-maldua
-
 # Pimbra patches - END
 
