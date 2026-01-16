@@ -16,5 +16,11 @@
 %GIT_OVERRIDES          = zm-admin-console.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-admin-console.tag=10.0.18.p1-maldua
 
+## zm-admin-ajax
+### Fix for: CVE-2025-68645 - Addressed an unauthenticated local file inclusion vulnerability in the RestFilter
+### 10.1.12 ZBUG-4988: removed RestFilter
+%GIT_OVERRIDES          = zm-admin-ajax.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-admin-ajax.tag=10.0.18.p1-maldua
+
 # Pimbra patches - END
 
