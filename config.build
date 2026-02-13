@@ -10,5 +10,11 @@
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-web-client.tag=10.1.15.p1-maldua
 
+## zm-core-utils
+### Backported Ubuntu 24.04 support
+### This avoids having submission errors when a logged-in user refreshes the page.
+%GIT_OVERRIDES          = zm-core-utils.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-core-utils.tag=10.1.15.p2.beta-maldua
+
 # Pimbra patches - END
 
