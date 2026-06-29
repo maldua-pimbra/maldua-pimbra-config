@@ -10,11 +10,5 @@
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-web-client.tag=10.1.16.p2-maldua
 
-## zm-mailbox
-### ZCS-19325 : Improve revokeOrphanGrants filter validation
-### Possibly related to 10.1.18 pre-announced CVE
-%GIT_OVERRIDES          = zm-mailbox.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-mailbox.tag=10.1.16.p2-maldua
-
 # Pimbra patches - END
 
