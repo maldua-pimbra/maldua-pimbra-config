@@ -10,5 +10,9 @@
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-web-client.tag=10.1.16.p2-maldua
 
+## zm-build
+### SNMP CVE mitigation (2026-06)
+### This is applied directly in zm-build itself so not need to override its git repo
+
 # Pimbra patches - END
 
