@@ -16,6 +16,11 @@
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
 %GIT_OVERRIDES          = zm-web-client.tag=10.1.18.p1-maldua
 
+## zm-ajax
+### ZCS 10.1.20 ZWC XSS Fix. (3)
+%GIT_OVERRIDES          = zm-ajax.remote=maldua-pimbra
+%GIT_OVERRIDES          = zm-ajax.tag=10.1.18.p1-maldua
+
 ## zm-build
 ### SNMP CVE mitigation (2026-06)
 ### This is applied directly in zm-build itself so not need to override its git repo
