@@ -9,8 +9,12 @@
 ### This avoids having submission errors when a logged-in user refreshes the page.
 ###
 ### Fix: Crafted email can run malicious script. (10.1.19)
+###
+### ZCS 10.1.20 ZWC XSS Fix. (1)
+###
+### Fix 10.1.20: Allow malicious attachment filenames to execute script under specific conditions.
 %GIT_OVERRIDES          = zm-web-client.remote=maldua-pimbra
-%GIT_OVERRIDES          = zm-web-client.tag=10.1.17.p2-maldua
+%GIT_OVERRIDES          = zm-web-client.tag=10.1.18.p1-maldua
 
 ## zm-build
 ### SNMP CVE mitigation (2026-06)
